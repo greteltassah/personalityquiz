@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: #EBEBEB;
+  font-family: "Quicksand", sans-serif;
+  margin: 2em;
+  text-align: center;
+}
+/* header 1 = quiz name */
+h1 {
+  font-style: italic;
+  font-size: 3em;
+  color: black;
+  border-bottom: 2px solid black;
+}
+/* header 1 = questions */
+h2 {
+  margin: 0 auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+  background: #5F696D;
+  margin-top: 2em;
+  width: 300px;
+  height: 20px;
+  padding: 10px 10px 20px;
+  margin-top: 4em;
+  color: white;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.answer-choice img {
+  border-style: solid;
+  border-color: white;
+  border-width: 6px;
+  height: 10em;
+  margin: 1em;
+  width: 200px;
+}
+.answer-choice img:hover {
+  transform: scale(1.2);
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background-color: #313638;
+  color: #E8E9EB;
+  height: 3em;
+  width: 16em;
+  margin-inline-start: 10px;
+  margin-block-start: -6em;
+}
+#result {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+button:hover {
+  background-color: #5F696D;
+  margin-inline-start: 10px;
+  margin-block-start: -6em;
+}
+.szn {
+  border-radius: 50%;
+}
